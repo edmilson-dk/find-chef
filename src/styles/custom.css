@@ -1,0 +1,33 @@
+.slick-prev, .slick-next {
+  background-color: #22C55E !important;
+  color: #fff !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 4px !important;
+  top: calc(100% + 30px) !important;
+}
+
+.slick-slider {
+  width: 100% !important;
+}
+
+.slick-next  {
+  right: 0 !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+}
+
+.slick-dots {
+  top: calc(100% + 15px) !important;
+}
+
+.slick-dots li button:before {
+  font-size: 15px !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px !important;
+}
